@@ -16,8 +16,16 @@ git-stack --push;
 
 git-stack;
 
+
 ######### Some fixes on feature1 ###########
-git checkout feature1
+git checkout feature1;
+echo "Ohh I forgot this" >> new-feature.txt;
+git add . ;
+git log --oneline;
+git commit --fixup 87293b0;
+
+
+
 
 
 
